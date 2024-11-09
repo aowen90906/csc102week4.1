@@ -1,0 +1,70 @@
+<!--Anthony Owen OCT212024 week 4
+    Assignment 4.2: event driven programming,
+    UI Improvements- Image move button, image stop button, created round buttons, added green to the start button and red to the stop button,    -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>DO HAWG PARTS</title>
+    <script src="function.js"></script>
+</head>
+            
+    <body>
+<div>
+    <!--added header to page-->
+   <header> WELCOME TO DO HAWG PARTS </header>
+    <!--Opening header in large font-->
+   <h1> Back ground: </h1> 
+    <!--Short background paragraph backstory of DO HAWG PARTS-->
+    <h3> D.O. Hawg Parts, was started in 1991 as an off branch of a long time hobby. This hobby grew quickly into a business! <br>
+         Dan's love for Harley Davidsons' was only outshined by his love for his family. Since then Dan has had a chance to <br>
+         work on motorcycles from the early 1950's all the way to some of the newest bikes on the market today. </h3>
+       
+        <button id="flip-a-coin" onclick="flipcoin()">heads or tails</button>
+        <p>lets help you make your decision heads you buy it, tails you wait</p>
+        <img id = "player1Img"/></image>
+    
+
+         <!--triggers alert before entering page-->
+    <script> alert("RIDE RESPONSIBLY") </script>
+</div>
+
+
+<div>
+    <nav>
+    <!--Video changed to update to navigate to youtube -->
+    <a href="https://youtu.be/2qmfUq44rsg?si=gRWhdMRCex3-JvbS">WANT TO SEE SOMETHING COOL!</a>
+    </nav>
+</div>
+    <!--button takes you to fuelmotousa -->
+    <a href="https://www.fuelmotousa.com"> <button id="RIDE-FASTER">RIDE FASTER!</button> </a>
+    <!--creates form for inputting user name, employee id, password + submit button-->
+<form id="inputForm" onsubmit = "return false">
+    user name : <input type = "text" id = "userName">
+    <br>
+    employee id : <input type="text" id ="employee ID">
+    <br>
+    password: <input type = "number" id = "password">
+    <br>
+    <input type = "submit" onclick = "validate()"/> 
+</form>
+    <p id ="inputStatus"> Status of input values</p>
+    
+
+    <p>
+    <!--adds a short message at the bottom to ride responsibly-->
+    <h6>REMEMBER TO ALWAYS RIDE RESPONSIBLY</h6>   
+    </p>
+    <!--creates buttons from start and stop movement of the image-->
+    <button id="startImage" onclick="moveImage()">move it move it</button> <button id="stopImage" onclick="imageStop()">stop it!</button>
+
+
+    <div>
+        <!--creates image-->
+        <img src ="dog on bike.webp" id="memeimage" style = "position:absolute; width:300px;"/>
+    </div>
+     
+</body>
+</html>

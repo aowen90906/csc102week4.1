@@ -1,0 +1,75 @@
+/*
+declaration block:
+
+selector{
+    property1: value;
+    property2: value;
+    property3: value;
+}
+*/
+#startImage
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: darkgreen;
+}
+
+#stopImage
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: darkred;
+}
+
+body
+{
+    background-color:  darkorange; 
+    background-image:center;
+    text-align: center;
+
+}
+
+nav
+{
+    height: 600px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+footer
+{
+    text-align: center;
+    margin-right: 200px;
+    text-indent: 10px;
+}
+
+
+h1
+{
+    text-align: center;
+}
+
+#RIDE-FASTER
+ {
+    background-color: skyblue;
+    text-align: center;
+    box-shadow: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 100px;
+    width: 200px;
+}
+
+#flip-a-coin
+{
+    background-color: silver;
+    text-align: center;
+    border: color(black);
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    border-style: groove;
+}
